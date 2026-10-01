@@ -1,0 +1,269 @@
+{
+  "dataMode": "synthetic",
+  "source": "unchanged production Store.save",
+  "first": {
+    "records": 2,
+    "rows": [
+      {
+        "date": "2026-09-01",
+        "gross": "120000",
+        "refunds": "0",
+        "status": "ready"
+      },
+      {
+        "date": "2026-09-02",
+        "gross": "80000",
+        "refunds": "0",
+        "status": "ready"
+      },
+      {
+        "date": "2026-09-03",
+        "gross": "0",
+        "refunds": "0",
+        "status": "ready"
+      },
+      {
+        "date": "2026-09-04",
+        "gross": "0",
+        "refunds": "30000",
+        "status": "ready"
+      },
+      {
+        "date": "2026-09-05",
+        "gross": "0",
+        "refunds": "0",
+        "status": "ready"
+      },
+      {
+        "date": "2026-09-06",
+        "gross": "0",
+        "refunds": "0",
+        "status": "ready"
+      },
+      {
+        "date": "2026-09-07",
+        "gross": "0",
+        "refunds": "0",
+        "status": "ready"
+      },
+      {
+        "date": "2026-09-08",
+        "gross": null,
+        "refunds": null,
+        "status": "not_collected"
+      }
+    ],
+    "gross": "200000",
+    "refunds": "30000"
+  },
+  "repeated": {
+    "records": 2,
+    "rows": [
+      {
+        "date": "2026-09-01",
+        "gross": "120000",
+        "refunds": "0",
+        "status": "ready"
+      },
+      {
+        "date": "2026-09-02",
+        "gross": "80000",
+        "refunds": "0",
+        "status": "ready"
+      },
+      {
+        "date": "2026-09-03",
+        "gross": "0",
+        "refunds": "0",
+        "status": "ready"
+      },
+      {
+        "date": "2026-09-04",
+        "gross": "0",
+        "refunds": "30000",
+        "status": "ready"
+      },
+      {
+        "date": "2026-09-05",
+        "gross": "0",
+        "refunds": "0",
+        "status": "ready"
+      },
+      {
+        "date": "2026-09-06",
+        "gross": "0",
+        "refunds": "0",
+        "status": "ready"
+      },
+      {
+        "date": "2026-09-07",
+        "gross": "0",
+        "refunds": "0",
+        "status": "ready"
+      },
+      {
+        "date": "2026-09-08",
+        "gross": null,
+        "refunds": null,
+        "status": "not_collected"
+      }
+    ],
+    "gross": "200000",
+    "refunds": "30000"
+  },
+  "refreshed": {
+    "records": 2,
+    "rows": [
+      {
+        "date": "2026-09-01",
+        "gross": "120000",
+        "refunds": "0",
+        "status": "ready"
+      },
+      {
+        "date": "2026-09-02",
+        "gross": "80000",
+        "refunds": "0",
+        "status": "ready"
+      },
+      {
+        "date": "2026-09-03",
+        "gross": "0",
+        "refunds": "0",
+        "status": "ready"
+      },
+      {
+        "date": "2026-09-04",
+        "gross": "0",
+        "refunds": "40000",
+        "status": "ready"
+      },
+      {
+        "date": "2026-09-05",
+        "gross": "0",
+        "refunds": "0",
+        "status": "ready"
+      },
+      {
+        "date": "2026-09-06",
+        "gross": "0",
+        "refunds": "0",
+        "status": "ready"
+      },
+      {
+        "date": "2026-09-07",
+        "gross": "0",
+        "refunds": "0",
+        "status": "ready"
+      },
+      {
+        "date": "2026-09-08",
+        "gross": null,
+        "refunds": null,
+        "status": "not_collected"
+      }
+    ],
+    "gross": "200000",
+    "refunds": "40000"
+  },
+  "duplicateStable": true,
+  "plan": [
+    {
+      "date": "2026-09-01",
+      "metric": "gross",
+      "value": "120000",
+      "action": "candidate"
+    },
+    {
+      "date": "2026-09-01",
+      "metric": "refunds",
+      "value": "0",
+      "action": "candidate"
+    },
+    {
+      "date": "2026-09-02",
+      "metric": "gross",
+      "value": "80000",
+      "action": "candidate"
+    },
+    {
+      "date": "2026-09-02",
+      "metric": "refunds",
+      "value": "0",
+      "action": "candidate"
+    },
+    {
+      "date": "2026-09-03",
+      "metric": "gross",
+      "value": "0",
+      "action": "candidate"
+    },
+    {
+      "date": "2026-09-03",
+      "metric": "refunds",
+      "value": "0",
+      "action": "candidate"
+    },
+    {
+      "date": "2026-09-04",
+      "metric": "gross",
+      "value": "0",
+      "action": "candidate"
+    },
+    {
+      "date": "2026-09-04",
+      "metric": "refunds",
+      "value": "40000",
+      "action": "candidate"
+    },
+    {
+      "date": "2026-09-05",
+      "metric": "gross",
+      "value": "0",
+      "action": "candidate"
+    },
+    {
+      "date": "2026-09-05",
+      "metric": "refunds",
+      "value": "0",
+      "action": "candidate"
+    },
+    {
+      "date": "2026-09-06",
+      "metric": "gross",
+      "value": "0",
+      "action": "candidate"
+    },
+    {
+      "date": "2026-09-06",
+      "metric": "refunds",
+      "value": "0",
+      "action": "candidate"
+    },
+    {
+      "date": "2026-09-07",
+      "metric": "gross",
+      "value": "0",
+      "action": "candidate"
+    },
+    {
+      "date": "2026-09-07",
+      "metric": "refunds",
+      "value": "0",
+      "action": "candidate"
+    },
+    {
+      "date": "2026-09-08",
+      "metric": "gross",
+      "value": null,
+      "action": "hold"
+    },
+    {
+      "date": "2026-09-08",
+      "metric": "refunds",
+      "value": null,
+      "action": "hold"
+    }
+  ],
+  "notice": "Offline presentation example. No API calls or Google Sheets writes."
+}

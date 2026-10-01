@@ -6,7 +6,15 @@
 
 이 과정을 줄이려고 Commerce Metrics를 만들었다. API로 데이터를 가져오고, 기존 보고서가 읽는 원본 셀에 연결했다. 만드는 동안 가장 많이 확인한 건 **이 숫자를 그대로 넣어도 되는가**였다.
 
-![Commerce Metrics 데이터 흐름](assets/overview.svg)
+## 직접 실행한 결과
+
+![가상 데이터를 실제 저장 코드로 처리한 일별 결과](assets/results/daily-result.png)
+
+실제 SQLite 저장 메서드를 추려 가상 주문을 넣었다. 같은 자료를 두 번 수집해도 합계가 늘어나지 않고, 수정된 환불은 기존 행에 반영된다. 수집하지 않은 날짜는 0 대신 빈 값으로 남긴다.
+
+이 이미지는 공개 예제의 실행 결과다. 실제 운영 대시보드나 회사 실적을 캡처한 것은 아니다.
+
+[재수집·보류 처리 결과 보기](demo-gallery.md) · [Python 코드 실행하기](examples/idempotent-ledger/README.md)
 
 ## 숫자를 가져오기 전에 기준부터 맞췄다
 
@@ -33,6 +41,8 @@
 [기존 보고서를 유지한 방식 →](case-studies/safe-sheet-writes.md)
 
 ## 매일 돌아가는 과정도 만들었다
+
+![Commerce Metrics 데이터 흐름](assets/overview.svg)
 
 한 번 수집하는 것과 매일 맡겨 두는 것은 달랐다. 인증 만료, 조회 지연, 나중에 바뀐 실적을 확인할 수 있어야 했다.
 

@@ -1,0 +1,13 @@
+{
+  "source_path": "commerce_metrics/storage.py",
+  "source_sha256": "50d9c8b263b9362bd131cb8274a54951dc147dc2407677e7c1d19d246052c409",
+  "methods": {
+    "__init__": "b2918923810130594791fdc4aa2a5a6ee02bbc1cb30a3c1ed5d9a64654682dca",
+    "close": "cc80ec078743d86b8f76a985d20abe286aa523c2888e04de02f99a803b9b2045",
+    "_run": "7ac7152ef208329e563902827a777c4c93d5c0c0cf7c86b345bf7a10711a029c",
+    "save": "d1172273793d2024878d7852df9e03455f63ea57e7e551976d51d3afd1f39985"
+  },
+  "modifications": "Selected methods unchanged; imports limited to used stdlib and core, basis constants copied from connectors.",
+  "core_sha256": "cd1310a17b0e01879fab4dfcfc986dd922c51680ce49f46944d7be4f5a262603",
+  "source_commit": "6451231cba8adc0f36abbfb4f1e957a8a37fa7d8"
+}
